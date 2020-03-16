@@ -3,6 +3,10 @@ body {
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
+header {
+    position: relative;
+}
+
 .container {
     margin: 0 auto;
     width: 940px;
@@ -17,6 +21,15 @@ body {
     text-align: right;
     width: 140px;
     padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .menu-opcoes ul {
